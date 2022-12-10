@@ -46,12 +46,12 @@ ob_start();
          <td width='52%'><?= $nom ?></td>
 
          <td width='16%' align='center'>
-            <a href='./?action=DetailEtab&?id=<?= $id ?>'>
+            <a href='./?action=DetailEtab' href='?id=<?= $id ?>'>
                Voir détail</a>
          </td>
 
          <td width='16%' align='center'>
-            <a href='./?action=ModEtab&?action=demanderModifEtab&amp;id=<?= $id ?>'>
+            <a href='./?action=ModEtab' href ='?action=demanderModifEtab&amp;id=<?= $id ?>'>
                Modifier</a>
          </td>
 
@@ -61,7 +61,7 @@ ob_start();
          if (!existeAttributionsEtab($connexion, $id)) {
          ?>
             <td width='16%' align='center'>
-               <a href='SuppressionEtablissement.php?action=demanderSupprEtab&amp;id=<?= $id ?>'>
+               <a href='./?action=SuppEtab' href ='?action=demanderSupprEtab&amp;id=<?= $id ?>'>
                   Supprimer</a>
             </td>
 
@@ -90,7 +90,7 @@ ob_start();
    ?>
 
    <tr class='ligneTabNonQuad'>
-      <td colspan='4'><a href ='./?action=CreatEtab'> </a> <a href='?action=demanderCreEtab'>
+      <td colspan='4'><a href='./?action=CreatEtab' href ='?action=demanderCreEtab'>
             Création d'un établissement</a></td>
    </tr>
 </table>

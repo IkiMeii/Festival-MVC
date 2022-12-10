@@ -59,7 +59,7 @@ else
 
 ?>
 
-<form method='POST' action='ModificationEtablissement.php?'>
+<form method='POST' action='./?action=ModEtab'>
    <input type='hidden' value='validerModifEtab' name='action'>
    <table width='85%' cellspacing='0' cellpadding='0' align='center' 
    class='tabNonQuadrille'>
@@ -177,7 +177,7 @@ else
          </td>
       </tr>
       <tr>
-         <td colspan='2' align='center'><a href='ListeEtablissements.php'>Retour</a>
+         <td colspan='2' align='center'><a href='./?action=etablissement'>Retour</a>
          </td>
       </tr>
    </table>

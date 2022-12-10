@@ -60,7 +60,7 @@ else
 
 ?>
 
-<form method='POST' action='CreationEtablissement.php?'>
+<form method='POST' action='./?action=CreatEtab'>
    <input type='hidden' value='validerCreEtab' name='action'>
    <table width='85%' align='center' cellspacing='0' cellpadding='0' 
    class='tabNonQuadrille'>
@@ -193,7 +193,7 @@ else
          </td>
       </tr>
       <tr>
-         <td colspan='2' align='center'><a href='ListeEtablissements.php'>Retour</a>
+         <td colspan='2' align='center'><a href='./?action=etablissement'>Retour</a>
          </td>
       </tr>
    </table>
