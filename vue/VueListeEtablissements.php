@@ -11,7 +11,7 @@ ob_start();
 ?>
 <table width='80%' cellpadding='0' cellspacing='0' align='center'>
    <tr>
-      <td align='center'><a href='index.php'>Accueil > </a><a href='ListeEtablissements.php'>Consultation Etablissement</a>
+      <td align='center'><a href='index.php'>Accueil > </a><a href='./?action=etablissement'>Consultation Etablissement</a>
    </tr>
 </table>
 
